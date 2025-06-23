@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Undangan Wisuda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      .countdown {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1.5rem;
+        color: rgb(221, 221, 19);
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      .countdown-item {
+        text-align: center;
+      }
+
+      .countdown-item span {
+        display: block;
+        font-size: 0.9rem;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada Bapak/ibu , Sodara/i</h4>
+        <h1>Acara Widusa</h1>
+        <p>Akan berlangsung dalam:</p>
+
+        <!-- Countdown start -->
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <div id="days">00</div>
+            <span>Hari</span>
+          </div>
+          <div class="countdown-item">
+            <div id="hours">00</div>
+            <span>Jam</span>
+          </div>
+          <div class="countdown-item">
+            <div id="minutes">00</div>
+            <span>Menit</span>
+          </div>
+          <div class="countdown-item">
+            <div id="seconds">00</div>
+            <span>Detik</span>
+          </div>
+        </div>
+        <!-- Countdown end -->
+
+        <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()">Klik Untuk Melihat Undangan</a>
+      </main>
+    </section>
+<nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">Undangan Wisuda</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Undangan Wisuda</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="navbar-nav ms-auto">
+        <a class="nav-link"  href="#home">Home</a>
+        <a class="nav-link" href="#info">Features</a>
+        <a class="nav-link" href="#gallery">gallery</a>
+        <a class="nav-link" href="#rsvp">rsvp</a>
+        <a class="nav-link" href="#hadiah">hadiah</a>
+      </div> 
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="home">
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+<h2>Acara Wisuda</h2>
+<h3>Akan diselenggarakan pada:</h3>
+<h3>Hari/Tanggal: Minggu, 29 Juni 2025</h3>
+<h3>Waktu: 08.30 WIB</h3>
+<h3>Tempat: PONPES DARUL FALAH</h3>
+<p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i , untuk hadir di acara wisuda kami.</p>
+      </div>
+<div class="row couple ">
+<div class="col-lg-6">
+    <div class="row">
+      <div class="col-8 text-end">
+        <h3>Wisudawan</h3>
+        <p>  Abdullah Mubarak Bin Bpk. Sumino<br> Ahmad Umair Bin Bpk. Barzan Hamimi <br> Fakhrurrozi Bin Bpk. Haidar S.<br> Lutfi Afif Bin Bpk. Sofiyan<br>Nurul Muammar Bin Bpk. Sumino</p>
+
+      
+      
+      </div>
+      <div class="col-4">
+<img src="img/gambar2.jpg" alt="wisudawan" class="img-responsive ">
+
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="row">
+      <div class="col-4">
+        <img src="img/gambar1.jpg" alt="wisudawati" class="img-responsive rounded-circle">
+        
+      </div>
+      <div class="col-8 ">
+        <h3>Wisudawati</h3>
+        <p>Haritsah Faizatul Atqiya' Binti Bpk. Ahmad Syahrul <br> Halimatussa'diyah Binti Bpk. Agus Santoso <br> Nurul Hidayah Binti Bpk. Sriono <br> Yusri Nadziroh Binti Bpk. Sulaiman</p>
+
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+  </div>
+</section>
+
+<section id="info" class="info">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-10 text-center">
+<h2>Informasi Acara</h2>
+<p class="Alamat">Alamat: PONPES DARUL FALAH <br> Serbajaya, Pemanggilan, Natar </p>
+<a href="https://maps.app.goo.gl/q1XV7KZ7ka9PHRXv8" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka maps</a>
+<p class="description"> Diharapkan Kehadiran nya</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 col-10">
+        <div class="card text-center text-bg-light mb-5">
+  <div class="card-header">Acara Wisuda
+  </div>
+  <div class="card-body">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <i class="bi bi-clock d-block"></i>
+        <span>08.30 - selesai</span>
+    </div>
+      <div class="col-md-6">
+      <i class="bi bi-calendar-date d-block"></i>
+        <span>minggu, 29 Juni 2025</span>
+    </div>
+  </div>
+  <div class="card-footer">
+    semoga acara ini berjalan lancar dan sukses
+  </div>
+</div>
+      </div>
+    </div>
+      
+  </div>
+</section>
+    <script>
+      const targetDate = new Date("June 29, 2025 08:30:00").getTime();
+
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        if (distance < 0) {
+          document.getElementById("countdown").innerHTML = "Waktu telah tiba!";
+          return;
+        }
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerText = String(days).padStart(2, '0');
+        document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+        document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+        document.getElementById("seconds").innerText = String(seconds).padStart(2, '0');
+      }
+
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    </script>
+
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-10 text-center">
+        <span>Foto-foto Darul Falah</span>
+<h2>Galeri Foto</h2>
+<p>Galeri Ponpes Darul Falah Al-Kiromil Baroroh</p>
+      </div>
+    </div>
+
+  <div class="row row-cols-lg-4 row-col-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+    <div class="col mt-3">
+      <a href="img/galeri/gambar3.jpg" data-toggle="lightbox" data-caption="Ponpes Darul Falah" data-gallery="gallery">
+        <img src="img/galeri/thubnail/gambar3.jpg" alt="Ponpes Darul Falah" class="img-fluid w-100 rounded">
+      </a>
+    </div>
+    <div class="col mt-3">
+      <a href="img/gambar33.jpg" data-toggle="lightbox" data-caption="Ponpes Darul Falah" data-gallery="gallery">
+        <img src="img/gambar33.jpg" alt="Ponpes Darul Falah" class="img-fluid w-100 rounded">
+      </a>
+    </div>
+     <div class="col mt-3">
+      <a href="img/gambar4.jpg" data-toggle="lightbox" data-caption="Asatidz Darul Falah" data-gallery="gallery">
+        <img src="img/gambar4.jpg" alt="Asatidz Darul Falah" class="img-fluid w-100 rounded">
+      </a>
+    </div> 
+    <div class="col mt-3">
+      <a href="img/gambar5.jpg" data-toggle="lightbox" data-caption="Alumni Darul Falah" data-gallery="gallery">
+        <img src="img/gambar5.jpg" alt="Alumni Darul Falah" class="img-fluid w-100 rounded">
+      </a>
+    </div>
+     <div class="col mt-3">
+      <a href="img/gambar2.jpg" data-toggle="lightbox" data-caption="Alumni Darul Falah 2" data-gallery="gallery">
+        <img src="img/gambar2.jpg" alt="Alumni Darul Falah 2" class="img-fluid w-100 rounded">
+      </a>
+    </div>
+     
+  </div>
+  </div>
+<section id="rsvp" class="rsvp">
+ <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-10 text-center">
+        
+<h2>Informasi Kehadiran</h2>
+<p>Silahkan isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
+      </div>
+      
+    </div>
+<form class="row row-cols-md-auto g-3 align-items-center justify-content-center">
+  <form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbySurK3vO4Ng3i5M0LKEbuGhNoC1VpJkJw6l_SmtzsSHwGQzri53b0l9Ixs-7lZgdm-/exec" id="my-form">
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="nama" class="form-label">Nama</label>
+  <input type="text" class="form-control" id="nama" name="nama">
+</div>
+  </div>
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="jumlahkehadiran" class="form-label">jumlahkehadiran</label>
+  <input type="number" class="form-control" id="jumlahkehadiran" name="jumlahkehadiran" min="1" max="5" length="1" value="1">
+</div>
+  </div>
+  <div class="col-12">
+    <div class="mb-3">
+  <label for="status" class="form-label">konfirmasi</label>
+  <select id="status" name="status" class="form-select">
+    <option selected>Pilih salah satu</option>
+    <option value="hadir">Hadir</option>
+    <option value="mungkin hadir">Mungkin Hadir</option>
+    <option value="tidak hadir">Tidak Hadir</option>
+  </select>
+</div>
+  </div>
+  <div class="col-12" style="margin-top: 35px;">
+    <button class="btn btn-primary">Kirim</button>
+  </div>
+  </form>
+
+</section>
+<section id="hadiah" class="hadiah">
+ <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-10 text-center">
+        
+<h2>Kirim Hadiah</h2>
+<p>Silahkan pilih salah satu dibawah ini</p>
+      </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <ul class="list-group">
+  <li class="list-group-item">
+    <div class=" fw-bold">BRI</div>
+    12345678901 - Ahmad Umair
+  </li>
+  <li class="list-group-item">
+    <div class=" fw-bold">Dana</div>
+    082181337457 - Ahmad Umair
+  </li>
+ 
+</ul>
+        </div>
+      </div>
+    </div>
+</section>
+  
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <small class="block"> &copy; 2025 Undangan Wisuda. All rights reserved.</small>
+        <small class="block"> Design by <a href="https://instagram.com/ahmaddumer">@ahmaddumer</a></small>
+        <ul class="mt-3">
+          <li>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+    <script>
+const hamburger = document.querySelector('.navbar-toggler');
+const stickyTop = document.querySelector('.sticky-top');
+hamburger.addEventListener('click', function() {
+  stickyTop.style.overflow = 'visible';
+})
+
+const offcanvas = document.querySelector('.offcanvas');
+offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+  stickyTop.style.overflow = 'hidden';
+})
+    </script>
+
+    <script>
+       const rootElement = document.querySelector(":root");
+      function disableScroll() {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function() {
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+        rootElement.style.scrollBehavior = "auto";
+      }
+      function enableScroll() {
+        window.onscroll = function() {}
+         rootElement.style.scrollBehavior = "smooth";
+         localStorage.setItem('opened', 'true');
+      }
+
+      if (!localStorage.getItem('opened')) {
+      }
+      disableScroll();
+    </script>
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Success!");
+    })
+  });
+});
+
+    </script>
+  </body>
+</html>
